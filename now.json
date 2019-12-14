@@ -1,0 +1,14 @@
+{
+    "name": "swagger-diff",
+    "version": 2,
+    "builds": [
+        {
+            "src": "lib/*.rb",
+            "use": "@now/ruby"
+        },
+        {
+            "src": "*.ru",
+            "use": "@now/ruby"
+        }
+    ]
+}
